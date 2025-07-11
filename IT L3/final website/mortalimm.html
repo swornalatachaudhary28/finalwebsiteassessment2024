@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MORTAL.IMM ART GALLERY</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <style>
+        *{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-size:"Kumbh Sans",sans-serif;
+}
+.navbar{
+    background:black;
+    height: 80px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 1.2rem;
+    top: 0;
+    z-index: 999;
+}
+.navbar__container{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+#navbar__logo{
+    background-color:#ff8177;
+    background-image: linear-gradient(to top,#ff0844 0%,#ffb199 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+
+}
+.fa-gem{
+    margin-right: 0.5rem;
+
+}
+.navbar__menu{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    text-align: center;
+
+}
+.navbar__item{
+    height: 80px;
+
+}
+.navbar__links{
+    color: #fff;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    pad: 0 1rem;
+    text-decoration: none;
+    height: 100%;
+}
+.navbar__btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    width: 100%;
+}
+ .button{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius:4px ;
+    background: #f77062;
+    color: white;
+
+ }
+.button:hover{
+    background: #4837ff;
+    transition: all 0.3s ease ;
+
+}
+.navbar__links:hover{
+    color: #f77062;
+    transition: all 0.3s ease;
+}
+@media screen and (max-width:960 px){
+    
+}
+</style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar__container">
+          <a href="/" id="navbar__logo">MORTAL.IMM</a>
+          <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>  
+          <ul class="navbar__menu">
+            <li class="navbar__item">
+                <a href="/" class="navbar__links">
+                    HOME
+                </a>
+            </li>
+            <li class="navbar__item">
+                <a href="/aboutus.html" class="navbar__links">
+                    ABOUT US
+                </a>
+            </li>
+            <li class="navbar__item">
+                <a href="/gallery.html" class="navbar__links">
+                    GALLERY
+                </a>
+            </li>
+            <li class="navbar__item">
+                <a href="/auctions.html" class="navbar__links">
+                    AUCTIONS
+                </a>
+            </li>
+            <li class="navbar__item">
+                <a href="/artists.html" class="navbar__links">
+                    ARTISTS
+                </a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+    
+</body>
+</html>
